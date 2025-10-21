@@ -1,0 +1,50 @@
+enter ur number, enter the 9[X]! 
+ the result is 22
+
+of 2785 - 22 ::== 2763 the sum of digits 
+
+----------WITH ALL IN LOOP -----------------------------------
+current cdi  -  next cdi  ::==  subtraction 
+22 -  4 ::== 18
+4 - 9 ::== 9
+and 9 - 4 ::== 5
+
+additions of all subtractions 
+0 + 2763 ::== 2763
+2763 + 18 ::== 2781
+2781 + 9 ::== 2790
+exiting with sum of 2790  - 5 ::== 2785
+
+Matches Main number with Sumof Them 
+
+-------------USING FIRST CDI-----------------------------
+    using 2785      first cdi 22
+    sum_of_nines 2790     last cdi 4
+
+      with 9 - 22 ::== -13
+      and 2785 - -13 ::== 2798
+      --> 2790 - 2798 ::== -8
+      --> -8 - -13 ::== 5
+      --> 9 - 5 ::== 4
+
+its the same 4  with 4
+-------------END OF PROTOUS------------------------------
+
+----------END OF LOOP -----------------------------------
+
+----------------------DEPTH of cdis----------------------------
+the code below contains a depth proof. If depth isnt satisfied 
+the result MAY BE NOT the main number you entered above        
+of 22 - 4 ::== 18
+of assumption 4 - 4 ::== 9
+with assumption of addition 2763 + 18 + 9 ::== 2790
+of assumption 9 - 4 ::== 5
+and final of 2790 - 5 ::== 2785
+
+Depth is NOT correct but numbers matches
+
+And of number 2763
+internal result 18
+with ts_loop of 9
+18 - 9 ::== 9
+continue with 9
