@@ -1,0 +1,50 @@
+enter ur number, enter the 9[X]! 
+ the result is 18
+
+of 35721 - 18 ::== 35703 the sum of digits 
+
+----------WITH ALL IN LOOP -----------------------------------
+current cdi  -  next cdi  ::==  subtraction 
+18 -  9 ::== 9
+9 - 9 ::== 9
+and 9 - 9 ::== 0
+
+additions of all subtractions 
+0 + 35703 ::== 35703
+35703 + 9 ::== 35712
+35712 + 9 ::== 35721
+exiting with sum of 35721  - 0 ::== 35721
+
+Matches Main number with Sumof Them 
+
+-------------USING FIRST CDI-----------------------------
+    using 35721      first cdi 18
+    sum_of_nines 35721     last cdi 9
+
+      with 112 - 18 ::== 94
+      and 35721 - 94 ::== 35627
+      --> 35721 - 35627 ::== 94
+      --> 94 - 94 ::== 0
+      --> 9 - 0 ::== 9
+
+its the same 9  with 9
+-------------END OF PROTOUS------------------------------
+
+----------END OF LOOP -----------------------------------
+
+----------------------DEPTH of cdis----------------------------
+the code below contains a depth proof. If depth isnt satisfied 
+the result MAY BE NOT the main number you entered above        
+of 18 - 9 ::== 9
+of assumption 9 - 9 ::== 9
+with assumption of addition 35703 + 9 + 9 ::== 35721
+of assumption 9 - 9 ::== 0
+and final of 35721 - 0 ::== 35721
+
+Depth is NOT correct but numbers matches
+
+And of number 35703
+internal result 18
+with ts_loop of 9
+18 - 9 ::== 9
+continue with 9
